@@ -5,4 +5,8 @@ export default class Order {
   constructor() {
     this.items = [];
   }
+
+  addItem(item: Item) {
+    this.items.push(item);
+  }
 }
