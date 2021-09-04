@@ -1,0 +1,19 @@
+{
+  "name": "solid_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jest ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2",
+    "@types/jest": "^27.0.1"
+  }
+}
